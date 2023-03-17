@@ -43,4 +43,18 @@ e sfrutto lombok per creare i setters, i getters, il toString (@Data), il costru
 <br><br>
 <img width="409" alt="fine pojo" src="https://user-images.githubusercontent.com/91018701/226015445-157afe95-7edc-464e-a12e-6092a22974b6.png">
 <br><br><br>
+creo un altro package all'interno di quello principale che chiamo .service
 <br><br>
+<img width="897" alt="package service" src="https://user-images.githubusercontent.com/91018701/226018330-c10effc0-6b88-4d42-a800-edc8a1a3a806.png">
+<br><br><br>
+all'interno del quale creo una classe
+<br><br>
+<img width="574" alt="creazione pojo" src="https://user-images.githubusercontent.com/91018701/226019148-baa9bc30-d5d8-4dd2-914d-9756867e7c7d.png">
+<br><br>
+<img width="877" alt="classe service volpe" src="https://user-images.githubusercontent.com/91018701/226019642-ab8c0873-e4d0-4132-9dfd-ae6b56f9527d.png">
+<br><br><br>
+che conterrà la logica dei metodi che verranno chiamati nell'url grazie alle rotte
+<br>per far capire alla classe la sua funzione devo usare l'annotazione @Service
+<br><br>
+<img width="555" alt="service annotation" src="https://user-images.githubusercontent.com/91018701/226020185-fb0bd166-d357-433e-87d9-58f8f927ed7f.png">
+
