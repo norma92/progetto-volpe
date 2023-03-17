@@ -25,7 +25,16 @@ una volta selezionati i dati non elaborati
 <img width="636" alt="05 - dati non elaborati" src="https://user-images.githubusercontent.com/91018701/226001224-5028062b-a6e1-4ffd-8217-0a236bed1fd7.png">
 <br><br><br>
 li passo a Json2CSharp (https://json2csharp.com/code-converters/json-to-pojo) per convertirli in formato Java
+<br>quello che ottengo è una classe pojo:
+<br><br>
 <img width="1026" alt="06 - deserializzazione" src="https://user-images.githubusercontent.com/91018701/226001258-ec0fdfdb-e268-4120-9cad-8ddb02782094.png">
-
+<br><br><br>
+copio i suoi attributi cambiando i modificatori di visibilità a PRIVATE e li copio nella classe creata in .models
+<br><br>
+<img width="880" alt="creazione models" src="https://user-images.githubusercontent.com/91018701/226010794-c2864962-95cc-4288-8821-bef2e49c7d78.png">
+<br><br>
+<img width="793" alt="creazione classe pojo" src="https://user-images.githubusercontent.com/91018701/226011117-b4f32e7d-4b1d-406e-b4ec-d6a8e83c036b.png">
+<br><br>
+<img width="574" alt="creazione pojo" src="https://user-images.githubusercontent.com/91018701/226011229-d1ea5c98-b4e9-43b5-ad19-65ad1be3ab02.png">
 <br><br><br>
 <br><br>
