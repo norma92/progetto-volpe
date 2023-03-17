@@ -29,13 +29,14 @@ li passo a Json2CSharp (https://json2csharp.com/code-converters/json-to-pojo) pe
 <br><br>
 <img width="1026" alt="06 - deserializzazione" src="https://user-images.githubusercontent.com/91018701/226001258-ec0fdfdb-e268-4120-9cad-8ddb02782094.png">
 <br><br><br>
-ccopio i suoi attributi nella classe creata in .models
+copio i suoi attributi nella classe creata in .models
 <br><br>
 <img width="880" alt="creazione models" src="https://user-images.githubusercontent.com/91018701/226010794-c2864962-95cc-4288-8821-bef2e49c7d78.png">
 <br><br>
 <img width="793" alt="creazione classe pojo" src="https://user-images.githubusercontent.com/91018701/226011117-b4f32e7d-4b1d-406e-b4ec-d6a8e83c036b.png">
 <br><br><br>
 cambiando i modificatori di visibilità a PRIVATE
+<br><br>
 <img width="574" alt="creazione pojo" src="https://user-images.githubusercontent.com/91018701/226011229-d1ea5c98-b4e9-43b5-ad19-65ad1be3ab02.png">
 <br><br><br>
 e sfrutto lombok per creare i setters, i getters, il toString (@Data), il costruttore parametrizzato (@AllArgsConstructor) e il costruttore di default (@NoArgsConstructor)
