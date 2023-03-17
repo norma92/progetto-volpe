@@ -16,6 +16,8 @@ per ogni package che dovrò creare devo accertarmi di aver selezionato il packag
 creo un package .models in cui inserirò le classe pojo
 <br>che ottengo trasformando i file da formato JSON a Java
 <br><br>
+<img width="880" alt="creazione models" src="https://user-images.githubusercontent.com/91018701/226010794-c2864962-95cc-4288-8821-bef2e49c7d78.png">
+<br><br><br>
 copiando il link nell'url ottengo il file in formato JSON
 <br><br>
 <img width="660" alt="04 - file JSON" src="https://user-images.githubusercontent.com/91018701/226001200-0fe1af1b-e744-4338-9617-487b3867a61e.png">
@@ -31,14 +33,12 @@ li passo a Json2CSharp (https://json2csharp.com/code-converters/json-to-pojo) pe
 <br><br><br>
 copio i suoi attributi nella classe creata in .models
 <br><br>
-<img width="880" alt="creazione models" src="https://user-images.githubusercontent.com/91018701/226010794-c2864962-95cc-4288-8821-bef2e49c7d78.png">
-<br><br>
 <img width="793" alt="creazione classe pojo" src="https://user-images.githubusercontent.com/91018701/226011117-b4f32e7d-4b1d-406e-b4ec-d6a8e83c036b.png">
-<br><br><br>
-cambiando i modificatori di visibilità a PRIVATE
 <br><br>
 <img width="574" alt="creazione pojo" src="https://user-images.githubusercontent.com/91018701/226011229-d1ea5c98-b4e9-43b5-ad19-65ad1be3ab02.png">
 <br><br><br>
+cambiando i modificatori di visibilità a PRIVATE
+<br>
 e sfrutto lombok per creare i setters, i getters, il toString (@Data), il costruttore parametrizzato (@AllArgsConstructor) e il costruttore di default (@NoArgsConstructor)
 <br><br>
 <img width="409" alt="fine pojo" src="https://user-images.githubusercontent.com/91018701/226015445-157afe95-7edc-464e-a12e-6092a22974b6.png">
@@ -48,8 +48,6 @@ creo un altro package all'interno di quello principale che chiamo .service
 <img width="897" alt="package service" src="https://user-images.githubusercontent.com/91018701/226018330-c10effc0-6b88-4d42-a800-edc8a1a3a806.png">
 <br><br><br>
 all'interno del quale creo una classe
-<br><br>
-<img width="574" alt="creazione pojo" src="https://user-images.githubusercontent.com/91018701/226019148-baa9bc30-d5d8-4dd2-914d-9756867e7c7d.png">
 <br><br>
 <img width="877" alt="classe service volpe" src="https://user-images.githubusercontent.com/91018701/226019642-ab8c0873-e4d0-4132-9dfd-ae6b56f9527d.png">
 <br><br><br>
