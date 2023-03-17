@@ -55,4 +55,22 @@ che conterrà la logica dei metodi che verranno chiamati nell'url grazie alle ro
 <br>per far capire alla classe la sua funzione devo usare l'annotazione @Service
 <br><br>
 <img width="555" alt="service annotation" src="https://user-images.githubusercontent.com/91018701/226020185-fb0bd166-d357-433e-87d9-58f8f927ed7f.png">
-
+<br><br><br>
+creo un metodo pubblico da poter richiamare poi nel restController
+<br>che mi permetta di visualizzare i valori degli attributi della classe Volpe in formato JSON
+<br><br>
+<img width="799" alt="Schermata 2023-03-17 alle 21 20 06" src="https://user-images.githubusercontent.com/91018701/226028353-da69262d-ec2f-4c60-bc1a-7a2753a7130b.png">
+<br><br><br>
+creo un package controller all'interno del principale che conterrà tutte le classi controller/restController
+<br><br>
+<img width="919" alt="creazione package controller" src="https://user-images.githubusercontent.com/91018701/226029189-416d2dea-09a3-46ee-a078-7a8763171718.png">
+<br><br>
+<img width="888" alt="creazione classe rest" src="https://user-images.githubusercontent.com/91018701/226029353-60b2cf36-60fc-4a69-b6ac-03a40000a295.png">
+<br><br><br>
+per far capire alla classe la propria natura uso l'annotazione @RestController
+<br><br>
+<img width="580" alt="annotazione rest" src="https://user-images.githubusercontent.com/91018701/226029733-3064022e-3e05-4614-8b08-ccbfc95d78bb.png">
+<br><br><br>
+uso l'annotazione @Autowired per ?? e creo un oggetto di tipo VolpeService, praticamente della classe che contiene i metodi da richiamare nell'url grazie alle rotte definite dai @GetMapping 
+<br><br>
+<img width="746" alt="invocazione metodo del service" src="https://user-images.githubusercontent.com/91018701/226030745-f4ef5ea7-cf07-4952-aea8-fdbcdc380943.png">
