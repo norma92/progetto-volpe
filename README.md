@@ -43,7 +43,7 @@ e sfrutto lombok per creare i setters, i getters, il toString (@Data), il costru
 <br><br>
 <img width="409" alt="fine pojo" src="https://user-images.githubusercontent.com/91018701/226015445-157afe95-7edc-464e-a12e-6092a22974b6.png">
 <br><br><br>
-creo un altro package all'interno di quello principale che chiamo .service
+creo un altro package all'interno di quello principale che chiamo .services
 <br><br>
 <img width="897" alt="package service" src="https://user-images.githubusercontent.com/91018701/226018330-c10effc0-6b88-4d42-a800-edc8a1a3a806.png">
 <br><br><br>
@@ -71,6 +71,6 @@ per far capire alla classe la propria natura uso l'annotazione @RestController
 <br><br>
 <img width="580" alt="annotazione rest" src="https://user-images.githubusercontent.com/91018701/226029733-3064022e-3e05-4614-8b08-ccbfc95d78bb.png">
 <br><br><br>
-uso l'annotazione @Autowired per ?? e creo un oggetto di tipo VolpeService che mi servirà per poter richiamare i metodi del service all'interno dei metodi che possono essere tracciati grazie alle rotte definite dai @GetMapping 
+uso l'annotazione @Autowired per creare un oggetto di tipo VolpeService che mi servirà per poter richiamare i metodi del service all'interno dei metodi che possono essere tracciati grazie alle rotte definite dai @GetMapping 
 <br><br>
 <img width="746" alt="invocazione metodo del service" src="https://user-images.githubusercontent.com/91018701/226030745-f4ef5ea7-cf07-4952-aea8-fdbcdc380943.png">
